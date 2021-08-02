@@ -7,7 +7,7 @@
 
 #
 
-<h2 align="center">🪚 LINGUAGENS 🔨</h2>
+<h2 align="center">🔧 LINGUAGENS 🔨</h2>
 <div align="center">
   <img src="https://img.shields.io/static/v1?label=ES6&labelColor=f0f6f0&message=JS&color=F7DF1E&style=for-the-badge&logo=javascript"/>
 
