@@ -30,7 +30,7 @@
 
 <h2 align="center">✨ OUTRAS HABILIDADES ✨</h2>
 <div align="center">
-  <img src="https://img.shields.io/static/v1?label=Inglês&message=US&labelColor=f0f6f0&color=222323&logo=canonical&logoColor=222323&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=ENGLISH&message=US&labelColor=f0f6f0&color=222323&logo=canonical&logoColor=222323&style=for-the-badge"/>
 
   <img src="https://img.shields.io/static/v1?label=Figma&message=Design&labelColor=f0f6f0&color=222323&logo=figma&logoColor=222323&style=for-the-badge"/>
 
