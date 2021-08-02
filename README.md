@@ -1,13 +1,13 @@
-<h1 align="center">LUCAS ALVES REGO</h1>
+<h1 align="center">👩🏻‍🦱 LUCAS ALVES REGO 👨🏻‍💻</h1>
 
-<div align="center">
+<div>
   <img height="200em" src="https://github-readme-stats.vercel.app/api?username=devlulcas&show_icons=true&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&locale=pt-br">
   <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br">
 </div>
 
 #
 
-<h2 align="center">🐘LINGUAGENS🐍</h2>
+<h2 align="center">🪚 LINGUAGENS 🔨</h2>
 <div align="center">
   <img src="https://img.shields.io/static/v1?label=ES6&labelColor=f0f6f0&message=JS&color=F7DF1E&style=for-the-badge&logo=javascript"/>
 
@@ -18,7 +18,7 @@
 
 #
 
-<h2 align="center">🐱MAIS TECNOLOGIAS 🐙</h2>
+<h2 align="center">🐱 MAIS TECNOLOGIAS 🐙</h2>
 <div align="center">  
   <img src="https://img.shields.io/static/v1?label=CSS&labelColor=f0f6f0&message=CSS3&color=1572B6&logo=css3&logoColor=1572B6&style=for-the-badge"/>
   
@@ -31,7 +31,7 @@
 
 #
 
-<h2 align="center">❤️‍🔥OUTRAS HABILIDADES❤️‍🔥</h2>
+<h2 align="center">✨ OUTRAS HABILIDADES ✨</h2>
 <div align="center">
   <img src="https://img.shields.io/static/v1?label=Inglês&message=US&labelColor=f0f6f0&color=222323&logo=canonical&logoColor=222323&style=for-the-badge"/>
 
