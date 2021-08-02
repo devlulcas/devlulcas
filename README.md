@@ -20,7 +20,9 @@
   <img src="https://img.shields.io/static/v1?label=HTML&labelColor=f0f6f0&message=HTML5&color=E34F26&style=for-the-badge&logo=html5"/>
 
   <img src="https://img.shields.io/static/v1?label=GIT&labelColor=f0f6f0&message=GIT&color=F05032&style=for-the-badge&logo=Git"/>
+</div>
 
+<div align="center">  
   <img src="https://img.shields.io/static/v1?label=GITHUB&labelColor=f0f6f0&message=hub&logoColor=181717&color=181717&style=for-the-badge&logo=Github"/>
 </div>
 
