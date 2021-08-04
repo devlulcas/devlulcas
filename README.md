@@ -35,6 +35,8 @@
   <img src="https://img.shields.io/static/v1?label=Figma&message=Design&labelColor=f0f6f0&color=222323&logo=figma&logoColor=222323&style=for-the-badge"/>
 
   <img src="https://img.shields.io/static/v1?label=Linux&message=SO&labelColor=f0f6f0&color=222323&logo=linux&logoColor=222323&style=for-the-badge"/>
+</div>
 
+<div align="center">
   <img height="200em" src="https://github-readme-stats.vercel.app/api?username=devlulcas&show_icons=true&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&locale=pt-br">
 </div>
