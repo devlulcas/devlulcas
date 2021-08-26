@@ -20,63 +20,71 @@
 
   <body>
     <!--DEFAULT HEADER-->
-    <header>
-      <!--Button for mobile menu-->
-      <button>
-        <div>--</div>
-        <div>--</div>
-        <div>--</div>
-      </button>
+    <header class="global-header">
+      <div class="basic">
+        <!--Button for mobile menu-->
+        <button class="menu_btn-mobile">
+          <div>--</div>
+          <div>--</div>
+          <div>--</div>
+        </button>
 
-      <h1>Devlulcas</h1>
+        <h1>Devlulcas</h1>
 
-      <!--Shortcut to contact form-->
-      <a href="#">
-        <img src="#" alt="#" />
-      </a>
+        <!--Shortcut to contact form-->
+        <a href="#">
+          <img src="images/icons/icon-email.svg" alt="E-mail" />
+        </a>
+      </div>
 
       <!--Real menu / navigation menu-->
-      <nav>
-        <ul>
-          <li>
+      <nav class="menu center">
+        <ul class="menu-options">
+          <li class="menu-options-item">
             <a href="#">
               <img src="images/icons/icon-skill.svg" alt="Habilidades" />
               Habilidades
             </a>
           </li>
 
-          <li>
+          <li class="menu-options-item">
             <a href="#">
               <img src="images/icons/icon-project.svg" alt="Projetos" />
               Projetos
             </a>
           </li>
 
-          <li>
+          <li class="menu-options-item">
             <a href="#">
               <img src="images/icons/icon-email.svg" alt="E-mail" />
               Contate-me
             </a>
           </li>
 
-          <li>
+          <li class="menu-options-item">
             <a href="#">
               <img src="images/icons/icon-github.svg" alt="Github" />
               Github
             </a>
           </li>
 
-          <li>
+          <li class="menu-options-item">
             <a href="#">
               <img src="images/icons/icon-cv.svg" alt="CV" />
               Currículo
             </a>
           </li>
 
-          <label for="#">
-            <input type="checkbox" name="" id="" />
-            <div></div>
-          </label>
+        
+            <label for="switch-checkbox" class="switch-label">
+              <input
+                type="checkbox"
+                name="switch-checkbox"
+                id="switch-checkbox"
+                class="switch-checkbox"
+              />
+              <div class="switch-div"></div>
+            </label>
         </ul>
       </nav>
     </header>
