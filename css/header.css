@@ -57,14 +57,11 @@
 
 /*----------FULL SCREEN NAV MENU----------*/
 [data-open="true"] {
-  visibility: visible;
-  opacity: 1;
-  animation: menu-goes-in 0.5s;
+  top: 0;
 }
 
 [data-open="false"] {
-  visibility: hidden;
-  opacity: 0;
+  top: -100vh;
 }
 
 .menu {
@@ -76,6 +73,7 @@
   width: 100%;
   bottom: 0;
   left: 0;
+  transition: 0.5s;
   margin-top: var(--header-basic-height);
   background-color: var(--header-bg);
 }
@@ -89,7 +87,7 @@
 .menu ul li {
   margin-top: 2rem;
   display: flex;
-  height: 6.6rem;
+  min-height: 4.6rem;
   width: 70%;
 }
 
@@ -168,9 +166,8 @@
   }
 
   .menu {
-    opacity: 1;
-    visibility: visible;
-    height: 10vh;
+    top: 0;
+    height: 100%;
     position: relative;
     margin-top: 0;
     left: auto;
