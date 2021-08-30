@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  font-size: 1.4vh;
+
+  --white: #fff;
+  --black: #000;
+  --header-bg: #1947e5;
+  --header-basic-height: 10vh;
+  --menu-items-bg: #f4f5f7;
+  --h1-color: #fff;
+  --switch-bg: #e9e7fc;
+  --switch-circle-bg: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: var(--white);
+}
+
+a,
+p {
+  color: var(--black);
+}
+
+ul {
+  list-style: none;
+}
+
+.content {
+  margin-top: var(--header-basic-height);
+}
