@@ -12,3 +12,12 @@
 .menu-btn-animate .bar:nth-child(3) {
   transform: rotate(45deg) translate(-1rem, -1rem);
 }
+
+@keyframes menu-goes-in {
+  0% {
+    top: -100vh;
+  }
+  100% {
+    top: 0;
+  }
+}
