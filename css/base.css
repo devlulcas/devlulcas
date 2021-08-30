@@ -35,6 +35,10 @@ ul {
   list-style: none;
 }
 
+img {
+  height: 2.9vh;
+}
+
 .content {
   margin-top: var(--header-basic-height);
 }
