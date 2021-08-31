@@ -11,6 +11,7 @@
   align-items: center;
   position: fixed;
   height: 100vh;
+  z-index: 10;
   overflow: hidden;
 }
 
@@ -24,7 +25,7 @@
   align-items: center;
   padding: 2.4rem;
   z-index: 10;
-  background-color: var(--header-bg);
+  background-color: var(--dark-blue);
 }
 
 .global-header .basic .img,
@@ -39,7 +40,7 @@
 
 /*----------HAMBURGER MENU----------*/
 .menu-btn {
-  background-color: var(--header-bg);
+  background-color: var(--dark-blue);
 }
 
 .menu-btn .bar {
@@ -89,7 +90,7 @@
   left: 0;
   transition: 0.5s;
   margin-top: var(--header-basic-height);
-  background-color: var(--header-bg);
+  background-color: var(--dark-blue);
 }
 
 .menu ul {
@@ -171,6 +172,7 @@
   .global-header {
     flex-direction: row;
     height: var(--header-basic-height);
+    background: var(--dark-blue);
     top: 0;
   }
 
