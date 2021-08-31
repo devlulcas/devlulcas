@@ -1,0 +1,115 @@
+/*=====-----HOME SECTION-----=====*/
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+}
+
+/*----------HERO----------*/
+.hero,
+.personal-presentation {
+  height: 50%;
+}
+
+.hero {
+  background-image: url("/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .me {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 0.2rem solid black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+/*----------PRESENTATION----------*/
+.personal-presentation {
+  background: var(--white);
+  padding: 6rem 3rem;
+}
+
+.personal-presentation h2 {
+  font-size: 4.2rem;
+}
+
+.personal-presentation p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--grey-blue);
+  line-height: 3rem;
+}
+
+/*----------SCROLL BUTTON----------*/
+.home .scroll-button {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/*----------DESKTOP----------*/
+@media (min-width: 58rem) {
+  .home {
+    flex-direction: row;
+  }
+
+  .hero,
+  .personal-presentation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .me {
+    left: initial;
+    top: initial;
+    transform: none;
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+  }
+
+  .personal-presentation {
+    flex-direction: column;
+  }
+
+  .personal-presentation h2 {
+    font-size: 8rem;
+    width: 100%;
+  }
+
+  .personal-presentation p {
+    margin-top: 1rem;
+    font-size: 3.8rem;
+    color: var(--grey-blue);
+    line-height: 5rem;
+  }
+
+  .home .scroll-button {
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 3rem;
+    border: solid 2px black;
+    box-shadow: 0px 0.2rem black;
+  }
+
+  .home .scroll-button img {
+    height: 1.5vh;
+  }
+}
