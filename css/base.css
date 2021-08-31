@@ -10,15 +10,16 @@
 :root {
   font-size: 1.4vh;
 
+  /*GENERAL COLORS*/
   --white: #fff;
   --black: #000;
-  --header-bg: #1947e5;
-  --header-basic-height: 11vh;
-  --menu-items-bg: #f4f5f7;
-  --h1-color: #fff;
-  --p-color: #474a57;
-  --switch-bg: #e9e7fc;
-  --switch-circle-bg: #fff;
+  --dark-blue: #1947e5;
+  --pale-blue: #e9e7fc;
+  --white-blue: #f4f5f7;
+  --grey-blue: #474a57;
+
+  /*OTHER*/
+  --header-height: 11vh;
 }
 
 h1 {
@@ -41,5 +42,5 @@ img {
 }
 
 .content {
-  margin-top: var(--header-basic-height);
+  margin-top: var(--header-height);
 }
