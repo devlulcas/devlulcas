@@ -58,8 +58,9 @@
   background-color: transparent;
 }
 
-/*----------DESKTOP----------*/
+/*>>>>>>>>>>>>>>>>>>>>DESKTOP<<<<<<<<<<<<<<<<<<<<*/
 @media (min-width: 58rem) {
+  /*=====-----HOME SECTION-----=====*/
   .home {
     flex-direction: row;
   }

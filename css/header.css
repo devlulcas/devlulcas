@@ -1,4 +1,4 @@
-/*--HEADER--*/
+/*=====-----HEADER-----=====*/
 .global-header,
 .global-header .basic,
 .menu ul {
@@ -162,7 +162,7 @@
   transform: translateX(3.4rem);
 }
 
-/*----------DESKTOP----------*/
+/*>>>>>>>>>>>>>>>>>>>>DESKTOP<<<<<<<<<<<<<<<<<<<<*/
 @media (min-width: 58rem) {
   .menu-btn,
   .contact-shortcut {
@@ -210,8 +210,6 @@
   .menu ul li a img {
     margin-right: 5%;
   }
-
-  /*----------FAKE SWITCH----------*/
 
   .switch-label {
     margin-top: 0;
