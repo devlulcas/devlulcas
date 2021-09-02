@@ -58,6 +58,28 @@
   background-color: transparent;
 }
 
+/*=====-----SKILLS SECTION-----=====*/
+.skills {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  min-height: 100vh;
+}
+
+.card-skill {
+  width: 40vw;
+  height: 40vw;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  background-color: #FFBD12;
+  border-radius: 1.6rem;
+  border: .2rem solid black;
+}
+
 /*>>>>>>>>>>>>>>>>>>>>DESKTOP<<<<<<<<<<<<<<<<<<<<*/
 @media (min-width: 58rem) {
   /*=====-----HOME SECTION-----=====*/
