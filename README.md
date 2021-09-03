@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">  
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br?cache_seconds=1900">
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br&cache_seconds=7200">
 </div>
 
 #
@@ -38,5 +38,5 @@
 </div>
 
 <div align="center">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=devlulcas&show_icons=true&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&locale=pt-br?cache_seconds=1900">
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=devlulcas&show_icons=true&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&locale=pt-br&cache_seconds=7200">
 </div>
