@@ -1,324 +1,305 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--STYLES-->
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/body.css" />
-    <link rel="stylesheet" href="css/animations.css" />
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
-    <!--SCRIPTS-->
-    <script src="./javascript/main.js" defer></script>
-    <script
-      src="https://kit.fontawesome.com/ed4cb9f4cf.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>DEVLULCAS</title>
-  </head>
+  <!--STYLES-->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/body.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet" />
+  <!--SCRIPTS-->
+  <script src="./javascript/main.js" defer></script>
+  <script src="https://kit.fontawesome.com/ed4cb9f4cf.js" crossorigin="anonymous"></script>
 
-  <body>
-    <!--DEFAULT HEADER-->
-    <header class="global-header">
-      <!--BASIC HEADER-->
-      <div class="basic">
-        <!--Button for mobile menu-->
-        <button id="menu-btn" class="menu-btn">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </button>
+  <title>DEVLULCAS</title>
+</head>
 
-        <h1>Devlulcas</h1>
+<body>
+  <!--DEFAULT HEADER-->
+  <header class="global-header">
+    <!--BASIC HEADER-->
+    <div class="basic">
+      <!--Button for mobile menu-->
+      <button id="menu-btn" class="menu-btn">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
 
-        <!--Shortcut to contact form-->
-        <a class="contact-shortcut" href="#">
-          <div class="img">
-            <svg
-              width="24"
-              height="24"
-              xmlns="http://www.w3.org/2000/svg"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              fill="#FFF"
-            >
-              <path
-                d="M24 23h-24v-13.275l2-1.455v-7.27h20v7.272l2 1.453v13.275zm-20-10.472v-9.528h16v9.527l-8 5.473-8-5.472zm14-.528h-12v-1h12v1zm0-3v1h-12v-1h12zm-7-1h-5v-3h5v3zm7 0h-6v-1h6v1zm0-2h-6v-1h6v1z"
-              />
-            </svg>
-          </div>
-        </a>
+      <h1>Devlulcas</h1>
+
+      <!--Shortcut to contact form-->
+      <a class="contact-shortcut" href="#">
+        <div class="img">
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+            fill="#FFF">
+            <path
+              d="M24 23h-24v-13.275l2-1.455v-7.27h20v7.272l2 1.453v13.275zm-20-10.472v-9.528h16v9.527l-8 5.473-8-5.472zm14-.528h-12v-1h12v1zm0-3v1h-12v-1h12zm-7-1h-5v-3h5v3zm7 0h-6v-1h6v1zm0-2h-6v-1h6v1z" />
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <!--Real menu / navigation menu-->
+    <nav class="menu" data-open="false">
+      <ul id="menu-options" class="menu-options">
+        <li class="menu-options-item">
+          <a href="#">
+            <img src="images/icons/icon-skill.svg" alt="Habilidades" />
+            Habilidades
+          </a>
+        </li>
+
+        <li class="menu-options-item">
+          <a href="#">
+            <img src="images/icons/icon-project.svg" alt="Projetos" />
+            Projetos
+          </a>
+        </li>
+
+        <li class="menu-options-item">
+          <a href="#">
+            <img src="images/icons/icon-email.svg" alt="E-mail" />
+            Contato
+          </a>
+        </li>
+
+        <li class="menu-options-item">
+          <a href="#">
+            <img src="images/icons/icon-github.svg" alt="Github" />
+            Github
+          </a>
+        </li>
+
+        <li class="menu-options-item">
+          <a href="#">
+            <img src="images/icons/icon-cv.svg" alt="CV" />
+            Currículo
+          </a>
+        </li>
+
+        <label for="switch-checkbox" class="switch-label">
+          <input type="checkbox" name="switch-checkbox" id="switch-checkbox" class="switch-checkbox" />
+          <div class="switch-div"></div>
+        </label>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <!--HOME-->
+    <section class="home">
+      <!--Hero image-->
+      <div class="hero">
+        <img class="me" src="images/me.jpg" alt="Devlulcas" />
       </div>
 
-      <!--Real menu / navigation menu-->
-      <nav class="menu" data-open="false">
-        <ul id="menu-options" class="menu-options">
-          <li class="menu-options-item">
-            <a href="#">
-              <img src="images/icons/icon-skill.svg" alt="Habilidades" />
-              Habilidades
-            </a>
-          </li>
+      <!--Presentation-->
+      <article class="personal-presentation">
+        <h2>Olá!</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+          molestiae deleniti id quam error vitae officia, et nihil odio earum!
+        </p>
+      </article>
 
-          <li class="menu-options-item">
-            <a href="#">
-              <img src="images/icons/icon-project.svg" alt="Projetos" />
-              Projetos
-            </a>
-          </li>
+      <!--Scroll down button-->
+      <button id="scroll-button" class="scroll-button">
+        <img src="images/icons/icon-chevron-down.svg" alt="descer" />
+      </button>
+    </section>
 
-          <li class="menu-options-item">
-            <a href="#">
-              <img src="images/icons/icon-email.svg" alt="E-mail" />
-              Contato
-            </a>
-          </li>
+    <!--SKILLS-->
+    <section class="skills">
+      <!--JS, PHP, CSS, HTML, GIT, SQL-->
+      <article class="card-skill">
+        <i class="fab fa-js-square fa-10x"></i>
+      </article>
 
-          <li class="menu-options-item">
-            <a href="#">
-              <img src="images/icons/icon-github.svg" alt="Github" />
-              Github
-            </a>
-          </li>
+      <article class="card-skill">
+        <i class="fab fa-php fa-8x"></i>
+      </article>
 
-          <li class="menu-options-item">
-            <a href="#">
-              <img src="images/icons/icon-cv.svg" alt="CV" />
-              Currículo
-            </a>
-          </li>
+      <article class="card-skill">
+        <i class="fab fa-html5 fa-10x"></i>
+      </article>
 
-          <label for="switch-checkbox" class="switch-label">
-            <input
-              type="checkbox"
-              name="switch-checkbox"
-              id="switch-checkbox"
-              class="switch-checkbox"
-            />
-            <div class="switch-div"></div>
-          </label>
-        </ul>
-      </nav>
-    </header>
+      <article class="card-skill">
+        <i class="fab fa-css3-alt fa-10x"></i>
+      </article>
 
-    <div class="content">
-      <!--HOME-->
-      <section class="home">
-        <!--Hero image-->
-        <div class="hero">
-          <img class="me" src="images/me.jpg" alt="Devlulcas" />
+      <article class="card-skill">
+        <i class="fab fa-git-alt fa-10x"></i>
+      </article>
+
+      <article class="card-skill">
+        <i class="fas fa-database fa-8x"></i>
+      </article>
+    </section>
+
+    <!--PROJECTS-->
+    <section>
+      <!--Project example 1-->
+      <article class="card-project">
+        <img src="#" alt="#" />
+        <div class="project-container">
+          <div class="project-information">
+            <h3 class="project-title">Projetinho</h3>
+            <div class="project-description">
+              <img src="" alt="" />
+              <p>Descrição do Projetinho</p>
+            </div>
+            <div class="project-metadata">
+              <img src="#" alt="#" />
+              <p>10 Março, 2021</p>
+            </div>
+          </div>
+          <button class="project-show_more">...</button>
         </div>
+      </article>
 
-        <!--Presentation-->
-        <article class="personal-presentation">
-          <h2>Olá!</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            molestiae deleniti id quam error vitae officia, et nihil odio earum!
-          </p>
-        </article>
-
-        <!--Scroll down button-->
-        <button id="scroll-button" class="scroll-button">
-          <img src="images/icons/icon-chevron-down.svg" alt="descer" />
-        </button>
-      </section>
-
-      <!--SKILLS-->
-      <section>
-        <h2>Habilidades</h2>
-        <!--JS, PHP, CSS, HTML, GIT, SQL-->
-        <div class="skills">
-          <article class="card-skill">
-            <i class="fab fa-js-square fa-10x"></i>
-          </article>
-
-          <article class="card-skill">
-            <i class="fab fa-php fa-8x"></i>
-          </article>
-
-          <article class="card-skill">
-            <i class="fab fa-html5 fa-10x"></i>
-          </article>
-
-          <article class="card-skill">
-            <i class="fab fa-css3-alt fa-10x"></i>
-          </article>
-
-          <article class="card-skill">
-            <i class="fab fa-git-alt fa-10x"></i>
-          </article>
-
-          <article class="card-skill">
-            <i class="fas fa-database fa-8x"></i>
-          </article>
+      <!--Project example 2-->
+      <article class="card-project">
+        <img src="#" alt="#" />
+        <div class="project-container">
+          <div class="project-information">
+            <h3 class="project-title">Projetinho</h3>
+            <div class="project-description">
+              <img src="#" alt="#" />
+              <p>Descrição do Projetinho</p>
+            </div>
+            <div class="project-metadata">
+              <img src="#" alt="#" />
+              <p>10 Março, 2021</p>
+            </div>
+          </div>
+          <button class="project-show_more">...</button>
         </div>
-      </section>
+      </article>
 
-      <!--PROJECTS-->
-      <section>
-        <!--Project example 1-->
-        <article class="card-project">
-          <img src="#" alt="#" />
-          <div class="project-container">
-            <div class="project-information">
-              <h3 class="project-title">Projetinho</h3>
-              <div class="project-description">
-                <img src="" alt="" />
-                <p>Descrição do Projetinho</p>
-              </div>
-              <div class="project-metadata">
-                <img src="#" alt="#" />
-                <p>10 Março, 2021</p>
-              </div>
-            </div>
-            <button class="project-show_more">...</button>
-          </div>
-        </article>
-
-        <!--Project example 2-->
-        <article class="card-project">
-          <img src="#" alt="#" />
-          <div class="project-container">
-            <div class="project-information">
-              <h3 class="project-title">Projetinho</h3>
-              <div class="project-description">
-                <img src="#" alt="#" />
-                <p>Descrição do Projetinho</p>
-              </div>
-              <div class="project-metadata">
-                <img src="#" alt="#" />
-                <p>10 Março, 2021</p>
-              </div>
-            </div>
-            <button class="project-show_more">...</button>
-          </div>
-        </article>
-
-        <!--Project example 3-->
-        <article class="card-project">
-          <img src="#" alt="#" />
-          <div class="project-container">
-            <div class="project-information">
-              <h3 class="project-title">Projetinho</h3>
-              <div class="project-description">
-                <img src="#" alt="#" />
-                <p>Descrição do Projetinho</p>
-              </div>
-              <div class="project-metadata">
-                <img src="#" alt="#" />
-                <p>10 Março, 2021</p>
-              </div>
-            </div>
-            <button class="project-show_more">...</button>
-          </div>
-        </article>
-
-        <!--Project example 4-->
-        <article class="card-project">
-          <img src="#" alt="#" />
-          <div class="project-container">
-            <div class="project-information">
-              <h3 class="project-title">Projetinho</h3>
-              <div class="project-description">
-                <img src="#" alt="#" />
-                <p>Descrição do Projetinho</p>
-              </div>
-              <div class="project-metadata">
-                <img src="#" alt="#" />
-                <p>10 Março, 2021</p>
-              </div>
-            </div>
-            <button class="project-show_more">...</button>
-          </div>
-        </article>
-
-        <!--Project example 5-->
-        <article class="card-project">
-          <img src="#" alt="#" />
-          <div class="project-container">
-            <div class="project-information">
-              <h3 class="project-title">Projetinho</h3>
-              <div class="project-description">
-                <img src="#" alt="#" />
-                <p>Descrição do Projetinho</p>
-              </div>
-              <div class="project-metadata">
-                <img src="#" alt="#" />
-                <p>10 Março, 2021</p>
-              </div>
-            </div>
-            <button class="project-show_more">...</button>
-          </div>
-        </article>
-
-        <!--Project example 6-->
-        <article class="card-project">
-          <img src="#" alt="#" />
-          <div class="project-container">
-            <div class="project-information">
-              <h3 class="project-title">Projetinho</h3>
-              <div class="project-description">
-                <img src="#" alt="#" />
-                <p>Descrição do Projetinho</p>
-              </div>
-              <div class="project-metadata">
-                <img src="#" alt="#" />
-                <p>10 Março, 2021</p>
-              </div>
-            </div>
-            <button class="project-show_more">...</button>
-          </div>
-        </article>
-      </section>
-
-      <!--CONTACT-->
-      <section>
-        <section class="contact-container">
-          <h2>Entre em contato comigo</h2>
-          <form action="post">
-            <label for="">Seu nome</label>
-            <div>
+      <!--Project example 3-->
+      <article class="card-project">
+        <img src="#" alt="#" />
+        <div class="project-container">
+          <div class="project-information">
+            <h3 class="project-title">Projetinho</h3>
+            <div class="project-description">
               <img src="#" alt="#" />
-              <input type="text" placeholder="Ex: Lucas" />
+              <p>Descrição do Projetinho</p>
             </div>
-
-            <label for="">Seu e-mail</label>
-            <div>
+            <div class="project-metadata">
               <img src="#" alt="#" />
-              <input type="text" placeholder="Ex: Lucas@email.com" />
+              <p>10 Março, 2021</p>
             </div>
+          </div>
+          <button class="project-show_more">...</button>
+        </div>
+      </article>
 
-            <label for="">Assunto</label>
-            <div>
+      <!--Project example 4-->
+      <article class="card-project">
+        <img src="#" alt="#" />
+        <div class="project-container">
+          <div class="project-information">
+            <h3 class="project-title">Projetinho</h3>
+            <div class="project-description">
               <img src="#" alt="#" />
-              <input type="text" placeholder="Ex: Podemos conversar?" />
+              <p>Descrição do Projetinho</p>
             </div>
+            <div class="project-metadata">
+              <img src="#" alt="#" />
+              <p>10 Março, 2021</p>
+            </div>
+          </div>
+          <button class="project-show_more">...</button>
+        </div>
+      </article>
 
-            <label for="">Mensagem</label>
-            <div>
-              <textarea name="" id=""></textarea>
+      <!--Project example 5-->
+      <article class="card-project">
+        <img src="#" alt="#" />
+        <div class="project-container">
+          <div class="project-information">
+            <h3 class="project-title">Projetinho</h3>
+            <div class="project-description">
+              <img src="#" alt="#" />
+              <p>Descrição do Projetinho</p>
             </div>
-            <div>
-              <hr />
-              <button>
-                Enviar e-mail
-                <img src="#" alt="#" />
-              </button>
+            <div class="project-metadata">
+              <img src="#" alt="#" />
+              <p>10 Março, 2021</p>
             </div>
-          </form>
-        </section>
+          </div>
+          <button class="project-show_more">...</button>
+        </div>
+      </article>
+
+      <!--Project example 6-->
+      <article class="card-project">
+        <img src="#" alt="#" />
+        <div class="project-container">
+          <div class="project-information">
+            <h3 class="project-title">Projetinho</h3>
+            <div class="project-description">
+              <img src="#" alt="#" />
+              <p>Descrição do Projetinho</p>
+            </div>
+            <div class="project-metadata">
+              <img src="#" alt="#" />
+              <p>10 Março, 2021</p>
+            </div>
+          </div>
+          <button class="project-show_more">...</button>
+        </div>
+      </article>
+    </section>
+
+    <!--CONTACT-->
+    <section>
+      <section class="contact-container">
+        <h2>Entre em contato comigo</h2>
+        <form action="post">
+          <label for="">Seu nome</label>
+          <div>
+            <img src="#" alt="#" />
+            <input type="text" placeholder="Ex: Lucas" />
+          </div>
+
+          <label for="">Seu e-mail</label>
+          <div>
+            <img src="#" alt="#" />
+            <input type="text" placeholder="Ex: Lucas@email.com" />
+          </div>
+
+          <label for="">Assunto</label>
+          <div>
+            <img src="#" alt="#" />
+            <input type="text" placeholder="Ex: Podemos conversar?" />
+          </div>
+
+          <label for="">Mensagem</label>
+          <div>
+            <textarea name="" id=""></textarea>
+          </div>
+          <div>
+            <hr />
+            <button>
+              Enviar e-mail
+              <img src="#" alt="#" />
+            </button>
+          </div>
+        </form>
       </section>
-    </div>
-  </body>
+    </section>
+  </div>
+</body>
+
 </html>
