@@ -48,6 +48,7 @@
 
 /*----------SCROLL BUTTON----------*/
 .scroll-button {
+  display: block;
   position: absolute;
   width: 4rem;
   height: 4rem;
