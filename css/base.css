@@ -9,7 +9,7 @@
 
 :root {
   font-size: 1.4vh;
-
+  scroll-behavior: smooth;
   /*GENERAL COLORS*/
   --white: #fff;
   --black: #000;
