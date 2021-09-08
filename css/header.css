@@ -73,11 +73,11 @@
 
 /*----------FULL SCREEN NAV MENU----------*/
 [data-open="true"] {
-  top: 0;
+  transform: translateY(-100%);
 }
 
 [data-open="false"] {
-  top: -100vh;
+  transform: translateY(0%);
 }
 
 .menu {
@@ -89,9 +89,10 @@
   width: 100%;
   bottom: 0;
   left: 0;
-  transition: 0.5s;
+  transition: 300ms linear;
   margin-top: var(--header-height);
   background-color: var(--dark-blue);
+  will-change: transform;
 }
 
 .menu ul {
