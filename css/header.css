@@ -73,11 +73,11 @@
 
 /*----------FULL SCREEN NAV MENU----------*/
 [data-open="true"] {
-  transform: translateY(-100%);
+  transform: translateY(0%);
 }
 
 [data-open="false"] {
-  transform: translateY(0%);
+  transform: translateY(-100%);
 }
 
 .menu {
