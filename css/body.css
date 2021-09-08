@@ -60,14 +60,20 @@
 }
 
 /*=====-----SKILLS SECTION-----=====*/
+.skills,
+.projects,
+.contact-container {
+  padding: var(--header-height) 2rem 1rem 2rem;
+}
+
 .skills {
   background-color: blueviolet;
   display: grid;
-  gap: 1vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   min-height: 100vh;
-  padding: var(--header-height) 0.5% 0 0.5%;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .card-skill {
@@ -113,7 +119,7 @@
 
 /*=====-----PROJECTS SECTION-----=====*/
 .projects {
-  padding: calc(1rem + var(--header-height)) 2rem 2rem 2rem;
+  padding-bottom: 2rem;
 }
 
 .card-project {
@@ -183,15 +189,135 @@
   justify-content: center;
 }
 
-.show-more {
+.show-more,
+.contact-container .social-medias .social {
   border-radius: 50%;
   border: 0.3rem black solid;
   box-shadow: 0rem 0.3rem black;
   display: flex;
-  font-size: 3rem;
-  height: 6rem;
   justify-content: center;
+}
+
+.show-more {
+  height: 6rem;
   width: 6rem;
+  font-size: 3rem;
+}
+
+/*=====-----CONTACT SECTION-----=====*/
+.contact {
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.contact-container h2 {
+  font-size: 3vh;
+  margin: 2rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.contact-container form label {
+  border-width: 0;
+  clip-path: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.contact-container form .input,
+.contact-container form .input i {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container form .input {
+  background: var(--white);
+  border-radius: 1rem;
+  border: solid 0.18rem #000;
+  margin-top: 2rem;
+  min-height: 5rem;
+}
+
+.contact-container form .input i {
+  font-size: 2vh;
+  height: 5vh;
+  margin-right: 0.8rem;
+  width: 5vh;
+}
+
+.contact-container form .input input,
+.contact-container form .input textarea {
+  background: none;
+  height: 4rem;
+  outline: none;
+  width: 100%;
+}
+
+.contact-container form .input textarea {
+  height: 25vh;
+  padding: 2rem 1rem;
+  resize: none;
+}
+
+.contact-container form .input textarea::-webkit-scrollbar {
+  background-color: var(--white);
+  border-radius: 2rem;
+  width: 1.5rem;
+}
+
+.contact-container form .input textarea::-webkit-scrollbar-thumb {
+  background-color: var(--dark-grey);
+  border-radius: 2rem;
+}
+
+.contact-container form .send-mail-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.contact-container form .send-mail-container .line {
+  background-color: var(--dark-grey);
+  height: 0.2rem;
+  position: absolute;
+  width: 97.3%;
+}
+
+.contact-container form .send-mail {
+  background-color: var(--dark-grey);
+  border-radius: 1rem;
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+.contact-container .social-medias {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.contact-container .social-medias .social {
+  align-items: center;
+  background: var(--white);
+  font-size: 2rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.contact-img {
+  display: none;
+  z-index: 1;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>DESKTOP<<<<<<<<<<<<<<<<<<<<*/
@@ -279,5 +405,30 @@
   .project-container {
     height: 40%;
     width: 100%;
+  }
+
+  /*=====-----CONTACT SECTION-----=====*/
+  .contact {
+    display: flex;
+    width: 100vw;
+  }
+
+  .contact-container {
+    width: 100%;
+  }
+
+  .contact-container h2 {
+    font-size: 5vh;
+    margin-bottom: 3vh;
+  }
+
+  .contact-img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
   }
 }
