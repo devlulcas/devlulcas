@@ -36,7 +36,7 @@
       <h1>Devlulcas</h1>
 
       <!--Shortcut to contact form-->
-      <a class="contact-shortcut" href="#">
+      <a class="contact-shortcut" href="#contact">
         <div class="img">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
             fill="#FFF">
@@ -65,21 +65,21 @@
         </li>
 
         <li class="menu-options-item">
-          <a href="#">
+          <a href="#contact">
             <img src="images/icons/icon-email.svg" alt="E-mail" />
             Contato
           </a>
         </li>
 
         <li class="menu-options-item">
-          <a href="#">
+          <a href="https://github.com/devlulcas" target="_blank" rel="noopener noreferrer">
             <img src="images/icons/icon-github.svg" alt="Github" />
             Github
           </a>
         </li>
 
         <li class="menu-options-item">
-          <a href="#">
+          <a href="pdfs/cv_lucasalvesrego.contato@gmail.com.pdf" download="cv_lucasalvesrego.contato@gmail.com">
             <img src="images/icons/icon-cv.svg" alt="CV" />
             Currículo
           </a>
@@ -334,41 +334,61 @@
     </section>
 
     <!--CONTACT-->
-    <section>
+    <section id="contact" class="contact">
       <section class="contact-container">
         <h2>Entre em contato comigo</h2>
         <form action="post">
-          <label for="">Seu nome</label>
-          <div>
-            <img src="#" alt="#" />
-            <input type="text" placeholder="Ex: Lucas" />
+          <label for="name">Seu nome</label>
+          <div class="input">
+            <i class="fas fa-signature"></i>
+            <input type="text" id="name" name="name" placeholder="Ex: Lucas" />
           </div>
 
-          <label for="">Seu e-mail</label>
-          <div>
-            <img src="#" alt="#" />
-            <input type="text" placeholder="Ex: Lucas@email.com" />
+          <label for="email">Seu e-mail</label>
+          <div class="input">
+            <i class="fas fa-at"></i>
+            <input type="text" id="email" name="email" placeholder="Ex: Lucas@email.com" />
           </div>
 
-          <label for="">Assunto</label>
-          <div>
-            <img src="#" alt="#" />
-            <input type="text" placeholder="Ex: Podemos conversar?" />
+          <label for="subject">Assunto</label>
+          <div class="input">
+            <i class="fas fa-comment-alt"></i>
+            <input type="text" id="subject" name="subject" placeholder="Ex: Podemos conversar?" />
           </div>
 
-          <label for="">Mensagem</label>
-          <div>
-            <textarea name="" id=""></textarea>
+          <label for="message">Mensagem</label>
+          <div class="input">
+            <textarea name="message" id="message" placeholder="Ex: Olá. Boa noite! :D"></textarea>
           </div>
-          <div>
-            <hr />
-            <button>
+
+          <div class="send-mail-container">
+            <span class="line"></span>
+            <button class="send-mail">
               Enviar e-mail
-              <img src="#" alt="#" />
+              <i class="fas fa-paper-plane"></i>
             </button>
           </div>
         </form>
+        <footer class="social-medias">
+          <a href="https://www.linkedin.com/in/lucasalvesregodev/" target="_blank" rel="noopener noreferrer"
+            class="social">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="tel:+5577981175919" class="social">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+
+          <a href="mailto:lucasalvesrego.contato@gmail.com" class="social">
+            <i class="fas fa-envelope"></i>
+          </a>
+
+          <a href="https://github.com/devlulcas" target="_blank" rel="noopener noreferrer" class="social">
+            <i class="fab fa-github"></i>
+          </a>
+        </footer>
       </section>
+      <div class="contact-img"></div>
     </section>
   </div>
 </body>
