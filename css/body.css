@@ -61,6 +61,7 @@
 
 /*=====-----SKILLS SECTION-----=====*/
 .skills {
+  background-color: blueviolet;
   display: grid;
   gap: 1vw;
   grid-template-columns: 1fr 1fr;
@@ -70,18 +71,44 @@
 }
 
 .card-skill {
-  min-width: 80%;
-  min-height: 85%;
-  align-self: center;
-  justify-self: center;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1.3rem;
+  align-self: center;
   background-color: #ffbd12;
   border-radius: 1.6rem;
   border: 0.2rem solid black;
+  color: white;
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  justify-self: center;
+  min-height: 85%;
+  min-width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-info {
+  align-items: center;
+  background-color: #000000ab;
+  border-radius: 0 0 1.5rem 1.5rem;
+  color: var(--white);
+  display: flex;
+  font-size: 2rem;
+  font-weight: bolder;
+  height: 101%;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5%;
+  position: absolute;
+  text-align: center;
+  transform: translateY(-100%);
+  transition: 300ms ease-in;
+  width: 101%;
+  word-break: break-all;
+}
+
+.card-skill:hover > .skill-info {
+  transform: translateY(0%);
 }
 
 /*>>>>>>>>>>>>>>>>>>>>DESKTOP<<<<<<<<<<<<<<<<<<<<*/
