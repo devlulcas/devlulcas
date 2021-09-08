@@ -111,6 +111,89 @@
   transform: translateY(0%);
 }
 
+/*=====-----PROJECTS SECTION-----=====*/
+.projects {
+  padding: calc(1rem + var(--header-height)) 2rem 2rem 2rem;
+}
+
+.card-project {
+  background: #babaca;
+  border-radius: 2rem;
+  border: 0.3rem black solid;
+  box-shadow: 0rem 0.35rem black;
+  margin: 2rem 0;
+  min-height: 32rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-project .img {
+  background: #000;
+  height: 21rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card-project .img img {
+  height: auto;
+  width: 100%;
+}
+
+.project-container {
+  background: var(--white);
+  display: flex;
+  justify-content: space-around;
+  min-height: 11rem;
+  padding: 1rem 1.4rem 1.4rem 1.4rem;
+  width: 100%;
+}
+
+.project-information {
+  width: 100%;
+}
+
+.project-information .title {
+  font-size: 2.5rem;
+}
+
+.project-information .description {
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.project-information a {
+  font-size: 1.2rem;
+}
+
+.project-information a i {
+  height: 2rem;
+  margin-right: 0.4rem;
+  text-align: center;
+  width: 1rem;
+}
+
+.project-information .code {
+  display: block;
+  margin-top: 1rem;
+}
+
+.show-more-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.show-more {
+  border-radius: 50%;
+  border: 0.3rem black solid;
+  box-shadow: 0rem 0.3rem black;
+  display: flex;
+  font-size: 3rem;
+  height: 6rem;
+  justify-content: center;
+  width: 6rem;
+}
+
 /*>>>>>>>>>>>>>>>>>>>>DESKTOP<<<<<<<<<<<<<<<<<<<<*/
 @media (min-width: 58rem) {
   /*=====-----HOME SECTION-----=====*/
@@ -171,5 +254,30 @@
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  /*=====-----PROJECTS SECTION-----=====*/
+  .projects {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    padding: calc(2rem + var(--header-height)) 2rem 2rem 2rem;
+  }
+
+  .card-project {
+    margin: 0rem 0;
+    min-height: 100%;
+  }
+
+  .card-project .img {
+    height: 60%;
+    width: 100%;
+  }
+
+  .project-container {
+    height: 40%;
+    width: 100%;
   }
 }
