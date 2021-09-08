@@ -184,7 +184,7 @@
   }
 
   .menu {
-    top: 0;
+    transform: translateY(0%);
     height: 100%;
     position: relative;
     margin-top: 0;
