@@ -64,11 +64,7 @@
 
 .skills {
   background-color: blueviolet;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   min-height: 100vh;
-  gap: 2rem;
   padding: calc(2rem + var(--header-height)) 2rem 2rem 2rem;
 }
 
@@ -82,8 +78,9 @@
   font-size: 1.3rem;
   justify-content: center;
   justify-self: center;
-  min-height: 100%;
+  min-height: 30vh;
   min-width: 100%;
+  margin-bottom: 3vh;
   overflow: hidden;
   position: relative;
 }
@@ -373,21 +370,21 @@
   }
 
   /*=====-----SKILLS SECTION-----=====*/
-  .skills {
+  .skills,
+  .projects {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-  }
-
-  /*=====-----PROJECTS SECTION-----=====*/
-  .projects {
     display: grid;
     gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     height: 100vh;
     padding: calc(2rem + var(--header-height)) 2rem 2rem 2rem;
   }
 
+  .card-skill {
+    margin-bottom: 0;
+  }
+  
+  /*=====-----PROJECTS SECTION-----=====*/
   .card-project {
     margin: 0rem 0;
     min-height: 100%;
