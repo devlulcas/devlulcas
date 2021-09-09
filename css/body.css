@@ -7,15 +7,14 @@
 }
 
 /*----------HERO----------*/
-.hero,
-.personal-presentation {
-  height: 50%;
-}
-
 .hero {
+  align-items: center;
   background-image: url("../images/background.jpg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  height: 40%;
+  justify-content: center;
 }
 
 .hero .me {
@@ -23,16 +22,13 @@
   height: 8rem;
   border-radius: 50%;
   border: 0.2rem solid black;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%);
 }
 
 /*----------PRESENTATION----------*/
 .personal-presentation {
   background: var(--white);
-  padding: 3rem 3rem;
+  height: 50%;
+  padding: 2rem 3rem;
 }
 
 .personal-presentation h2 {
