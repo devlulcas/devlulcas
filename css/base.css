@@ -17,10 +17,10 @@
   --pale-blue: #e9e7fc;
   --white-blue: #f4f5f7;
   --grey-blue: #474a57;
-  --dark-grey: #18191F;
+  --dark-grey: #18191f;
 
   /*OTHER*/
-  --header-height: 11vh;
+  --header-height: 9vh;
 }
 
 body {
