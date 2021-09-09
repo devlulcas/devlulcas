@@ -212,7 +212,8 @@
 
 .contact-container h2 {
   font-size: 3vh;
-  margin: 2rem;
+  margin: 2rem 0;
+  width: 100%;
   text-align: center;
   color: var(--white);
 }
