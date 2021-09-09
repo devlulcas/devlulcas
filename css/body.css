@@ -83,8 +83,8 @@
   font-size: 1.3rem;
   justify-content: center;
   justify-self: center;
-  min-height: 85%;
-  min-width: 80%;
+  min-height: 80%;
+  min-width: 85%;
   overflow: hidden;
   position: relative;
 }
