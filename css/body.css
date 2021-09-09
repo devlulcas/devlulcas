@@ -134,7 +134,7 @@
 
 .card-project .img img {
   height: auto;
-  width: 100%;
+  width: 110%;
 }
 
 .project-container {
@@ -383,7 +383,7 @@
   .card-skill {
     margin-bottom: 0;
   }
-  
+
   /*=====-----PROJECTS SECTION-----=====*/
   .card-project {
     margin: 0rem 0;
