@@ -30,6 +30,9 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: bolder;
+}
+
+h1 a {
   color: var(--white);
 }
 
