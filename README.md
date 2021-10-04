@@ -1,11 +1,5 @@
 <h1 align="center">👩🏻‍🦱 LUCAS ALVES REGO 👨🏻‍💻</h1>
 
-<h2 align="center">🚀 LINGUAGENS MAIS USADAS 🚀</h2>
-
-<div align="center">  
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br&cache_seconds=7000&exclude_repo=scripts-and-configs,atividades-ifba-c">
-</div>
-
 <h2 align="center">🔧 FERRAMENTAS QUE USO ATUALMENTE🔨</h2>
 
 <div align="center">
@@ -23,6 +17,11 @@
   
 </div>
 
+<h2 align="center">🚀 LINGUAGENS MAIS USADAS 🚀</h2>
+
+<div align="center">  
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=222323&text_color=222323&icon_color=222323&border_color=222323&bg_color=f0f6f0&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br&cache_seconds=7000&exclude_repo=scripts-and-configs,atividades-ifba-c">
+</div>
 
 <h2 align="center">🔧 FERRAMENTAS QUE JÁ USEI 🔨</h2>
 <div align="center">
