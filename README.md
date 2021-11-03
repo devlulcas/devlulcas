@@ -5,7 +5,6 @@
 > Hello there! You're welcome. I'm a web/mobile developer passionate about creating things that makes the life of common users and developers a little bit easier.
 
 <div align="center">
-  <br>
   <h2> 🔧 TECH SKILLS 🔨 </h2>
   <div>
     <!--WEB TECH ICONS-->
@@ -50,9 +49,9 @@
   <!--CARDS DE STATUS-->
   <div align="center">
     <!--STATUS DE LINGUAGEM-->
-    <img height="180rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=FFF&text_color=FFF&icon_color=222323&border_color=222323&bg_color=000&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br&cache_seconds=7000&exclude_repo=scripts-and-configs,atividades-ifba-c">
+    <img height="160rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=FFF&text_color=FFF&icon_color=222323&border_color=222323&bg_color=000&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br&cache_seconds=7000&exclude_repo=scripts-and-configs,atividades-ifba-c">
     <!--STATUS DO GITHUB-->
-    <img height="180rem" src="https://github-readme-stats.vercel.app/api?username=devlulcas&show_icons=true&title_color=FFF&text_color=FFF&icon_color=FFF&border_color=222323&bg_color=000&border_radius=5&locale=pt-br&cache_seconds=7200">
+    <img height="160rem" src="https://github-readme-stats.vercel.app/api?username=devlulcas&show_icons=true&title_color=FFF&text_color=FFF&icon_color=FFF&border_color=222323&bg_color=000&border_radius=5&locale=pt-br&cache_seconds=7200">
   </div>
 </div>
 
