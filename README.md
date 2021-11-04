@@ -2,8 +2,6 @@
 
 > Opa! Seja bem vindo. Sou um desenvolvedor web/mobile apaixonado por criar coisas que tornam a vida de usuários comuns e desenvolvedores mais fácil.
 
-> Hello there! You're welcome. I'm a web/mobile developer passionate about creating things that makes the life of common users and developers a little bit easier.
-
 <div align="center">
   <h2> 🔧 TECH SKILLS 🔨 </h2>
   <div>
