@@ -1,7 +1,7 @@
 <h1 align="center">👩🏻‍🦱 LUCAS ALVES REGO 👨🏻‍💻</h1>
 
-> Opa! Seja bem vindo. Sou um desenvolvedor web/mobile apaixonado por criar coisas que tornam a vida de usuários comuns e desenvolvedores mais fácil.
-
+> Desenvolvedor com experiência em tecnologias web/mobile 
+> Developer with experience in web/mobile technologies 
 <div align="center">
   <h2> 🔧 TECH SKILLS 🔨 </h2>
   <div>
