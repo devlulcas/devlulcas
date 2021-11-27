@@ -1,6 +1,7 @@
 <h1 align="center">👩🏻‍🦱 LUCAS ALVES REGO 👨🏻‍💻</h1>
 
 > Desenvolvedor com experiência em tecnologias web/mobile 
+
 > Developer with experience in web/mobile technologies 
 <div align="center">
   <h2> 🔧 TECH SKILLS 🔨 </h2>
