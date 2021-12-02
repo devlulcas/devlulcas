@@ -1,8 +1,8 @@
 <h1 align="center">👩🏻‍🦱 LUCAS ALVES REGO 👨🏻‍💻</h1>
 
-> Desenvolvedor com experiência em tecnologias web/mobile 
+> Desenvolvedor com experiência em tecnologias web e agora aprendendo mobile 
 
-> Developer with experience in web/mobile technologies 
+> Developer with experience in web technologies and now learning mobile  
 <div align="center">
   <h2> 🔧 TECH SKILLS 🔨 </h2>
   <div>
@@ -20,7 +20,7 @@
 
   <div>
     <!--MOBILE TECH ICONS-->
-    <img src="https://img.shields.io/static/v1?label=MOBILE&labelColor=000000&message=:&color=000000&logo=&logoColor=FFFFFF&style=for-the-badge"/>
+    <img src="https://img.shields.io/static/v1?label=LEARNING MOBILE&labelColor=000000&message=:&color=000000&logo=&logoColor=FFFFFF&style=for-the-badge"/>
     <!--KOTLIN-->
     <img src="https://img.shields.io/static/v1?label=&labelColor=000000&message=KOTLIN&color=000000&logo=KOTLIN&logoColor=7F52FF&style=for-the-badge"/>
     <!--SDK-->
