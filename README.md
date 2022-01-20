@@ -5,6 +5,7 @@
 🤖 Developer with experience in web technologies and now learning mobile  
 
 <!--WEB TECH ICONS-->
+<br>
 <div>
 🦄 I love front-end:
 <br>
