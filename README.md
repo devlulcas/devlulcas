@@ -30,6 +30,8 @@
 <img src="https://img.shields.io/static/v1?label=%20&labelColor=339933&message=node&color=339933&logo=node.js&logoColor=FFF&style=for-the-badge">
 <!--EXPRESS-->
 <img src="https://img.shields.io/static/v1?label=%20&labelColor=00c821ff&message=express&color=00c821ff&logo=express&logoColor=FFF&style=for-the-badge">
+<!--PHP-->
+<img src="https://img.shields.io/static/v1?label=%20&labelColor=777BB4&message=PHP&color=777BB4&logo=PHP&logoColor=FFF&style=for-the-badge">
 </div>
 
 <!--VC TECH ICONS-->
