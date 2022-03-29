@@ -9,7 +9,7 @@
 <!--WEB TECH ICONS-->
 <br>
 <div>
-🦄 I love front-end:
+🦄 I do some front-end:
 <br>
 
 <!--SVELTE-->
@@ -20,11 +20,15 @@
 <img src="https://img.shields.io/static/v1?label=&labelColor=E34F26&message=HTML&color=E34F26&logo=HTML5&logoColor=FFF&style=for-the-badge"/>    
 <!--CSS-->
 <img src="https://img.shields.io/static/v1?label=&labelColor=1572B6&message=CSS&color=1572B6&logo=CSS3&logoColor=FFF&style=for-the-badge"/>
+<!-- TS -->
+  <img src="https://img.shields.io/static/v1?label=&labelColor=3178C6&message=TYPESCRIPT&color=3178C6&logo=TYPESCRIPT&logoColor=FFF&style=for-the-badge"/>
+  <!-- REACT I-->
+  <img src="https://img.shields.io/static/v1?label=&labelColor=4D9BE3&message=REACT&color=4D9BE3&logo=REACT&logoColor=FFF&style=for-the-badge"/>
 </div>
 
 <!--BACKEND TECH ICONS-->
 <div>
-🐘 I did some backend here:
+🐘 And some backend too:
 <br>  
 <!--NODE JS-->
 <img src="https://img.shields.io/static/v1?label=%20&labelColor=339933&message=node&color=339933&logo=node.js&logoColor=FFF&style=for-the-badge">
@@ -49,19 +53,8 @@
 <!--ENGLISH-->
 <img src="https://img.shields.io/static/v1?label=&labelColor=00000c&message=ENGLISH&color=00000c&logo=canonical&logoColor=FFFFFF&style=for-the-badge"/>
 </div>
-<!-- LEARN -->
-<div>
-🦧 Things I want to learn <i>better</i> in 2022: 
-<br>
-  <!--KOTLIN-->
-  <img src="https://img.shields.io/static/v1?label=&labelColor=7F52FF&message=KOTLIN&color=7F52FF&logo=KOTLIN&logoColor=FFF&style=for-the-badge"/>
-  <!-- TS -->
-  <img src="https://img.shields.io/static/v1?label=&labelColor=3178C6&message=TYPESCRIPT&color=3178C6&logo=TYPESCRIPT&logoColor=FFF&style=for-the-badge"/>
-  <!-- REACT I-->
-  <img src="https://img.shields.io/static/v1?label=&labelColor=4D9BE3&message=REACT&color=4D9BE3&logo=REACT&logoColor=FFF&style=for-the-badge"/>
-</div>
-<br>
 
+<br>
 <!--CARDS DE STATUS-->
 <div align="center">
 <!--STATUS DE LINGUAGEM-->
