@@ -1,12 +1,15 @@
-<h1 align="center">🦝 LUCAS ALVES REGO 👋</h1>
+<div align="center">
+  <img height="100px" src="favicon.ico" alt="logo">
+  <h1 align="center">🦝 LUCAS ALVES REGO 👋</h1>
+</div>
 
-> 🤖 Hi! I'm Lucas. Nice to meet you! I do some frontend development and sometimes some backend and native android too `:D`
+> 🌟 **Hi! I'm Lucas.** Nice to meet you!
 
 > **🙂 Checkout [my portfolio](https://devlulcas.github.io/) to see [what I've done](https://devlulcas.github.io/projects)**
 
-> **🤓 You can [contact me here](https://devlulcas.github.io/contact) ou sending me a message in one of [my social media accounts](https://devlulcas.github.io/socials)**
+> **🤓 You can [contact me here](https://devlulcas.github.io/contact) or by sending me a message in one of [my social media accounts](https://devlulcas.github.io/socials)**
 
-### 🦄 I do some front-end:
+### 🦄 Front-end tools:
 
 ![javascript](https://img.shields.io/static/v1?label=&labelColor=ffdf21&message=JAVASCRIPT&color=ffdf21&logo=JAVASCRIPT&logoColor=fff&style=for-the-badge)
 ![typescript](https://img.shields.io/static/v1?label=&labelColor=3178C6&message=TYPESCRIPT&color=3178C6&logo=TYPESCRIPT&logoColor=FFF&style=for-the-badge)
@@ -17,7 +20,7 @@
 ![html](https://img.shields.io/static/v1?label=&labelColor=E34F26&message=HTML&color=E34F26&logo=HTML5&logoColor=FFF&style=for-the-badge)
 ![css](https://img.shields.io/static/v1?label=&labelColor=1572B6&message=CSS&color=1572B6&logo=CSS3&logoColor=FFF&style=for-the-badge)
 
-### 🐘 And some backend too:
+### 🐘 Backend tools:
 
 ![php](https://img.shields.io/static/v1?label=%20&labelColor=777BB4&message=PHP&color=777BB4&logo=PHP&logoColor=FFF&style=for-the-badge)
 ![express](https://img.shields.io/static/v1?label=&labelColor=00c821ff&message=express&color=00c821ff&logo=express&logoColor=FFF&style=for-the-badge)
