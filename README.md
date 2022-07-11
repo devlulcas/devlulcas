@@ -16,9 +16,13 @@
 
 ![svelte](https://img.shields.io/static/v1?label=&labelColor=FF3E00&message=svelte&color=FF3E00&logo=svelte&logoColor=FFF&style=for-the-badge)
 ![react](https://img.shields.io/static/v1?label=&labelColor=4D9BE3&message=REACT&color=4D9BE3&logo=REACT&logoColor=FFF&style=for-the-badge)
+![next.js](https://img.shields.io/static/v1?label=&message=NEXT+JS&labelColor=3f00b3&color=3f00b3&logo=next.js&logoColor=ffffff&style=for-the-badge)
+![sveltekit](https://img.shields.io/static/v1?label=&labelColor=FF0E00&message=svelte+kit&color=FF0E00&logo=svelte&logoColor=FFF&style=for-the-badge)
 
 ![html](https://img.shields.io/static/v1?label=&labelColor=E34F26&message=HTML&color=E34F26&logo=HTML5&logoColor=FFF&style=for-the-badge)
 ![css](https://img.shields.io/static/v1?label=&labelColor=1572B6&message=CSS&color=1572B6&logo=CSS3&logoColor=FFF&style=for-the-badge)
+![postcss](https://img.shields.io/static/v1?label=+&labelColor=ca0000&message=POSTCSS&color=ca0000&logo=postcss&logoColor=ffffff&style=for-the-badge)
+![styled-components](https://img.shields.io/static/v1?label=+&labelColor=9e2ba1&message=STYLED+COMPONENTS&color=9e2ba1&logo=styled-components&logoColor=ffffff&style=for-the-badge)
 
 ### 🐘 Backend tools:
 
