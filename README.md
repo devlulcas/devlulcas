@@ -16,7 +16,7 @@
 
 > 🌟 **Hi! I'm Lucas.** Nice to meet you!
 
-> **🙂 Checkout [my portfolio]([https://devlulcas.github.io/](https://devlulcas-github-io.vercel.app/) to see [what I've done](https://devlulcas-github-io.vercel.app/#projects)**
+> **🙂 Checkout [my portfolio](https://devlulcas-github-io.vercel.app/) to see [what I've done](https://devlulcas-github-io.vercel.app/#projects)**
 
 > **🤓 You can [contact me here](https://devlulcas-github-io.vercel.app/#contact) or by sending me a message in one of [my social media accounts](https://devlulcas.github.io/socials)**
 
