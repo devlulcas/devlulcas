@@ -28,9 +28,3 @@
 ![linux](https://img.shields.io/static/v1?label=&labelColor=00000c&message=linux&color=00000c&logo=linux&logoColor=FFFFFF&style=for-the-badge)
 ![figma](https://img.shields.io/static/v1?label=&labelColor=00000c&message=figma&color=00000c&logo=figma&logoColor=FFFFFF&style=for-the-badge)
 ![english](https://img.shields.io/static/v1?label=&labelColor=00000c&message=ENGLISH&color=00000c&logo=canonical&logoColor=FFFFFF&style=for-the-badge)
-
-<!--CARDS DE STATUS-->
-<div align="left">
-  <!--STATUS DE LINGUAGEM-->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlulcas&layout=compact&title_color=FFF&text_color=FFF&icon_color=222323&border_color=222323&bg_color=00000c&border_radius=5&include_all_commits=true&count_private=true&locale=pt-br&cache_seconds=7000&exclude_repo=scripts-and-configs,atividades-ifba-c">
-</div>
