@@ -6,4 +6,4 @@
 
 **🙂 Checkout [my portfolio](https://www.lucasrego.tech/) to see [what I've done](https://www.lucasrego.tech//#projects)**
 
-**🤓 You can [contact me here](https://www.lucasrego.tech/#contact) or by sending me a message in one of [my social media accounts](https://www.linkedin.com/in/lucasalvesregodev/)**
+**🤓 You can [contact me here](https://www.lucasrego.tech/z#contact) or by sending me a message in one of [my social media accounts](https://www.linkedin.com/in/lucasalvesregodev/)**
