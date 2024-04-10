@@ -1,10 +1,8 @@
-<div align="center">
-  <img src="./favicon.ico" width="100" height="100" alt="Lucas Rego" />
-</div>
+## 👋 Hi there, I'm Lucas
 
-## Hi there 👋
+I'm a Software Developer from Brazil. I'm currently working as a Full Stack Developer at [**@DantasBikes**](https://dantasbikes.com.br/), where I'm part of the team responsible for the development of the e-commerce platform and other systems.
 
-I'm Lucas, a software developer from Brazil. I like web development and I'm always looking to improve my skills. I'm currently working at [Dantas Bikes](https://dantasbikes.com.br/) as a frontend developer.
+[🌎 Click here to access my Website](https://www.lucasrego.tech/)
+and [💼 here to go to my LinkedIn profile](https://www.linkedin.com/in/lucasalvesregodev)
 
-- [🌐 My Website](https://www.lucasrego.tech/)
-- [🔗 My LinkedIn](https://www.linkedin.com/in/lucasalvesregodev)
+[![My Skills](https://skillicons.dev/icons?i=ts,js,php,go,postgres,sqlite,react,svelte,nextjs,nestjs,nodejs,docker,bash,linux,html,css,tailwind,vitest,jest)](https://www.lucasrego.tech/)
